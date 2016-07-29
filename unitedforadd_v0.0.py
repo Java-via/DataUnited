@@ -40,11 +40,11 @@ def catchapps():
             item[6] = current_app[6]
             item[7] = current_app[7]
             item[8] = int(current_app[8]) + int(item[8])
-            item[9] = samiliar(str(current_app[9]), str(item[9]))
-            item[10] = samiliar(str(current_app[10]), str(item[10]))
-            item[11] = samiliar(str(current_app[11]), str(item[11]))
+            item[9] = current_app[9] if current_app[9] != 0 else item[9]
+            item[10] = current_app[10] if current_app[10] != 0 else item[10]
+            item[11] = current_app[11] if current_app[11] != 0 else item[11]
             item[12] = current_app[12]
-            item[13] = current_app[13]
+            item[14] = current_app[14]
             current_app = item
         elif (Levenshtein.ratio(str(current_app[0]), str(item[0])) > 0.799) &\
                 (Levenshtein.ratio(get_string_strip(str(current_app[4])), get_string_strip(str(item[4]))) > 0.799):
@@ -57,11 +57,11 @@ def catchapps():
             item[6] = current_app[6]
             item[7] = current_app[7]
             item[8] = int(current_app[8]) + int(item[8])
-            item[9] = samiliar(str(current_app[9]), str(item[9]))
-            item[10] = samiliar(str(current_app[10]), str(item[10]))
-            item[11] = samiliar(str(current_app[11]), str(item[11]))
+            item[9] = current_app[9] if current_app[9] != 0 else item[9]
+            item[10] = current_app[10] if current_app[10] != 0 else item[10]
+            item[11] = current_app[11] if current_app[11] != 0 else item[11]
             item[12] = current_app[12]
-            item[13] = current_app[13]
+            item[14] = current_app[14]
             current_app = item
         else:
             list_resutl.append(current_app)
@@ -73,7 +73,7 @@ def catchapps():
                     "a_bytes, a_updatedate, a_version, a_install, a_like, a_comment, a_score, a_softgame, a_getdate)"
                     " VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
                     (info[0], info[1], info[2], info[3], info[4], info[5], info[6], info[7],
-                     info[8], info[9], info[10], info[11], info[12], info[13]))
+                     info[8], info[9], info[10], info[11], info[12], info[14]))
         conn.commit()
         assert cur, "Cursor happened something"
     print(list_resutl[-1])
