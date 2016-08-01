@@ -9,7 +9,7 @@ from apps_united.unitedforadd_v00 import add_catchapps
 assert sys.argv[1] in ["basic", "additional"]
 if sys.argv[1] == "basic":
     today = time.strftime('%Y-%m-%d', time.localtime(time.time()))
-    basic_catchapps(today)
+    basic_catchapps("2016-07-28")
 elif sys.argv[1] == "additional":
     today = time.strftime('%Y-%m-%d', time.localtime(time.time()))
     add_catchapps(today)

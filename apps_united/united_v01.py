@@ -63,7 +63,7 @@ def basic_catchapps(date):
         for info in list_resutl:
             assert info, "info is null"
             cur.execute("INSERT INTO t_apps_basic_united (a_pkgname, a_name, a_url, a_subtitle, a_description, "
-                        "a_classify, a_defaulttags, a_softgame) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %S)",
+                        "a_classify, a_defaulttags, a_softgame, a_getdate) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
                         (info[0], info[1], info[2], info[3], info[4], info[5], info[6], info[7], info[9]))
             conn.commit()
             assert cur, "Cursor happened something"
