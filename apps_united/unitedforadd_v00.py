@@ -31,8 +31,9 @@ def add_catchapps(date):
 
     list_apps = cur.fetchall()
     if len(list_apps) > 0:
-        list_resutl = []
+        logging.debug("it's time to start")
 
+        list_resutl = []
         current_app = list_apps[0]
 
         for item in list_apps[1: -1]:
@@ -84,6 +85,7 @@ def add_catchapps(date):
                          info[8], info[9], info[10], info[11], info[12], info[14]))
             conn.commit()
             assert cur, "Cursor happened something"
+        logging.debug("done")
         return
     else:
         logging.debug("%s today has no data", date)
