@@ -35,7 +35,7 @@ def catchapps():
             item[1] = current_app[1]
             item[2] = current_app[2]
             item[3] = samiliar(str(current_app[3]), str(item[3]))
-            item[4] = samiliar(str(current_app[4]), str(item[4]))
+            item[4] = str(current_app[4]) if "http://pp.myapp.com/" in str(current_app[4]) else item[4]
             item[5] = current_app[5]
             item[6] = current_app[6]
             item[7] = current_app[7]
@@ -47,12 +47,12 @@ def catchapps():
             item[14] = current_app[14]
             current_app = item
         elif (Levenshtein.ratio(str(current_app[0]), str(item[0])) > 0.799) &\
-                (Levenshtein.ratio(get_string_strip(str(current_app[4])), get_string_strip(str(item[4]))) > 0.799):
+                (Levenshtein.ratio(get_string_strip(str(current_app[1])), get_string_strip(str(item[1]))) > 0.799):
             item[0] = current_app[0]
             item[1] = current_app[1]
             item[2] = current_app[2]
             item[3] = samiliar(str(current_app[3]), str(item[3]))
-            item[4] = samiliar(str(current_app[4]), str(item[4]))
+            item[4] = str(current_app[4]) if "http://pp.myapp.com/" in str(current_app[4]) else item[4]
             item[5] = current_app[5]
             item[6] = current_app[6]
             item[7] = current_app[7]

@@ -39,6 +39,7 @@ def catchapps():
             item[5] = samiliar(str(current_app[5]), str(item[5]))
             item[6] = samiliar(str(current_app[6]), str(item[6]))
             item[7] = samiliar(str(current_app[7]), str(item[7]))
+            item[9] = current_app[9]
             current_app = item
         elif (Levenshtein.ratio(str(current_app[0]), str(item[0])) > 0.799) &\
                 (Levenshtein.ratio(get_string_strip(str(current_app[4])), get_string_strip(str(item[4]))) > 0.799):
@@ -50,6 +51,7 @@ def catchapps():
             item[5] = samiliar(str(current_app[5]), str(item[5]))
             item[6] = samiliar(str(current_app[6]), str(item[6]))
             item[7] = samiliar(str(current_app[7]), str(item[7]))
+            item[9] = current_app[9]
             current_app = item
         else:
             list_resutl.append(current_app)
@@ -58,8 +60,8 @@ def catchapps():
     for info in list_resutl:
         assert info, "info is null"
         cur.execute("INSERT INTO t_apps_basic_united (a_pkgname, a_name, a_url, a_subtitle, a_description, "
-                    "a_classify, a_defaulttags, a_softgame) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)",
-                    (info[0], info[1], info[2], info[3], info[4], info[5], info[6], info[7]))
+                    "a_classify, a_defaulttags, a_softgame) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %S)",
+                    (info[0], info[1], info[2], info[3], info[4], info[5], info[6], info[7], info[9]))
         conn.commit()
         assert cur, "Cursor happened something"
     print(list_resutl[-1])
