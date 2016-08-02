@@ -8,18 +8,18 @@ import pymysql
 
 
 # ----server----
-# DB_HOST = "101.200.174.172"
-# DB_DB = "data_apps"
-# DB_USER = "dba_apps"
-# DB_PWD = "mimadba_apps"
-# DB_CHARSET = "utf8"
+DB_HOST = "101.200.174.172"
+DB_DB = "data_apps"
+DB_USER = "dba_apps"
+DB_PWD = "mimadba_apps"
+DB_CHARSET = "utf8"
 
 # ----local----
-DB_HOST = "127.0.0.1"
-DB_DB = "app_db"
-DB_USER = "root"
-DB_PWD = "123"
-DB_CHARSET = "utf8"
+# DB_HOST = "127.0.0.1"
+# DB_DB = "app_db"
+# DB_USER = "root"
+# DB_PWD = "123"
+# DB_CHARSET = "utf8"
 
 """
 0:pkgname 1:name 2:url 3:subtitle 4:description 5:classify 6:defaulttags 7:softgame 8:source 9:getdate
