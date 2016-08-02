@@ -6,6 +6,15 @@ import time
 import logging
 import pymysql
 
+
+# ----server----
+# DB_HOST = "101.200.174.172"
+# DB_DB = "data_apps"
+# DB_USER = "dba_apps"
+# DB_PWD = "mimadba_apps"
+# DB_CHARSET = "utf8"
+
+# ----local----
 DB_HOST = "127.0.0.1"
 DB_DB = "app_db"
 DB_USER = "root"

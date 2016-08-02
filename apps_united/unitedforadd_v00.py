@@ -8,11 +8,19 @@ import logging
 
 logging.basicConfig(level=logging.DEBUG)
 
+# ----server----
 DB_HOST = "101.200.174.172"
 DB_DB = "data_apps"
 DB_USER = "dba_apps"
 DB_PWD = "mimadba_apps"
 DB_CHARSET = "utf8"
+
+# ----local----
+# DB_HOST = "127.0.0.1"
+# DB_DB = "app_db"
+# DB_USER = "root"
+# DB_PWD = "123"
+# DB_CHARSET = "utf8"
 
 """
 0:pkgname 1:name 2:url 3:publisher 4:picurl 5:bytes 6:updatedate 7:version
