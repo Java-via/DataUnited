@@ -43,6 +43,7 @@ def basic_catchapps(date):
         for item in list_apps[1: -1]:
             item = list(item)
             if current_app[0] == item[0]:
+                logging.debug("Pkgname compare: %s and %s is the same one", item[0], current_app[0])
                 item[0] = current_app[0]
                 item[1] = current_app[1]
                 item[2] = current_app[2]
@@ -55,6 +56,7 @@ def basic_catchapps(date):
                 current_app = item
             elif (Levenshtein.ratio(str(current_app[0]), str(item[0])) > 0.799) & \
                     (Levenshtein.ratio(get_string_strip(str(current_app[4])), get_string_strip(str(item[4]))) > 0.799):
+                logging.debug("Pkaname compare: the matching degree of %s and %s is very high", item[0], current_app[0])
                 item[0] = current_app[0]
                 item[1] = current_app[1]
                 item[2] = current_app[2]
@@ -66,6 +68,7 @@ def basic_catchapps(date):
                 item[9] = current_app[9]
                 current_app = item
             else:
+                logging.debug("Pkgname compare: %s and %s is very different", item[0], current_app[0])
                 list_resutl.append(current_app)
                 current_app = item
 
@@ -78,7 +81,7 @@ def basic_catchapps(date):
             assert cur, "Cursor happened something"
         return
     else:
-        logging.debug("%s today has no data", date)
+        logging.error("%s today has no data", date)
         return
 
 
