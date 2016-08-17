@@ -1,12 +1,16 @@
 # _*_ coding: utf-8 _*_
 
-import Levenshtein
-import time
-import re
-import pymysql
-import logging
 
-logging.basicConfig(level=logging.DEBUG)
+"""
+this model is aim to unit additional data of apps
+"""
+
+import re
+# import time
+import logging
+import Levenshtein
+import pymysql
+
 
 # ----server----
 DB_HOST = "101.200.174.172"
@@ -22,6 +26,9 @@ DB_CHARSET = "utf8"
 # DB_PWD = "123"
 # DB_CHARSET = "utf8"
 
+# ----logging config----
+logging.basicConfig(level=logging.DEBUG)
+
 """
 0:pkgname 1:name 2:url 3:publisher 4:picurl 5:bytes 6:updatedate 7:version
 8:install 9:like 10:comment 11:score 12:softgame 13:source 14:getdate
@@ -31,6 +38,11 @@ DB_CHARSET = "utf8"
 
 
 def add_catchapps(date):
+    """
+    unit data
+    :param date:
+    :return:
+    """
     conn = pymysql.connect(host=DB_HOST, user=DB_USER, password=DB_PWD, db=DB_DB, charset=DB_CHARSET)
     cur = conn.cursor()
     sql = "SELECT * FROM t_apps_additional WHERE DATE(a_getdate) = %s ORDER BY a_pkgname"
@@ -104,6 +116,12 @@ def add_catchapps(date):
 
 
 def samiliar(string1, string2):
+    """
+    compare two strings
+    :param string1:
+    :param string2:
+    :return: string1 or two
+    """
     return string1 if Levenshtein.ratio(string1, string2) > 0.7 else (string1 + "//" + string2)
 
 
@@ -113,6 +131,6 @@ def get_string_strip(string):
     """
     return re.sub(r"\s+", " ", string).strip() if string else ""
 
-if __name__ == "__main__":
-    today = time.strftime('%Y-%m-%d', time.localtime(time.time()))
-    add_catchapps(today)
+# if __name__ == "__main__":
+#     today = time.strftime('%Y-%m-%d', time.localtime(time.time()))
+#     add_catchapps(today)
