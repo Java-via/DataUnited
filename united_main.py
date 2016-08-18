@@ -2,16 +2,17 @@
 
 import logging
 import sys
-# import time
-from apps_united.unitedbasic_v01 import basic_catchapps
-from apps_united.unitedforadd_v00 import add_catchapps
+import time
+from apps_united.united_for_basic import basic_catchapps
+# from apps_united.unitedforadd_v00 import add_catchapps
+from apps_united.united_for_addi import addi_catchapps
 
 assert sys.argv[1] in ["basic", "additional"]
 if sys.argv[1] == "basic":
-    basic_catchapps(sys.argv[2])
+    basic_catchapps()
 elif sys.argv[1] == "additional":
-    # today = time.strftime('%Y-%m-%d', time.localtime(time.time()))
-    add_catchapps(sys.argv[2])
+    today = time.strftime('%Y-%m-%d', time.localtime(time.time()))
+    addi_catchapps(today)
 else:
     logging.error("united error: parameters error")
     pass
