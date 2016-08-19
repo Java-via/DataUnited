@@ -24,32 +24,6 @@ DB_CHARSET = "utf8"
     7:a_description  8:a_classify  9:a_defaulttags  10:a_softgame  11:a_source  12:a_getdate
 """
 
-"""
-def init_basic_cur(list_apps):
-    current_app = [i for i in range(19)]
-
-    current_app[0] = list_apps[1]
-    current_app[1] = list_apps[1]
-    current_app[2] = list_apps[2]
-    current_app[3] = list_apps[2]
-    current_app[4] = list_apps[3]
-    current_app[5] = list_apps[3]
-    current_app[6] = list_apps[4]
-    current_app[7] = list_apps[4]
-    current_app[8] = list_apps[5]
-    current_app[9] = list_apps[5]
-    current_app[10] = list_apps[6]
-    current_app[11] = list_apps[7]
-    current_app[12] = list_apps[7]
-    current_app[13] = list_apps[8]
-    current_app[14] = list_apps[9]
-    current_app[15] = list_apps[10]
-    current_app[16] = list_apps[10]
-    current_app[17] = list_apps[11]
-    current_app[18] = list_apps[12]
-    return current_app
-"""
-
 
 def init_basic_cur(list_apps):
     """
@@ -85,6 +59,14 @@ def update_basic_cur(current_app, item):
     current_app[16] = package_str(current_app[16], item[10])
     current_app[17] = package_str(current_app[17], item[11])
     return
+
+
+def update_basic_items(current_app):
+    return [current_app[1], current_app[2], current_app[3], current_app[4],
+            current_app[5], current_app[6], current_app[7], current_app[8],
+            current_app[9], current_app[10], current_app[11], current_app[12],
+            current_app[13], current_app[14], current_app[15], current_app[16],
+            current_app[17], current_app[18], current_app[0]]
 
 
 """
@@ -130,12 +112,21 @@ def update_addi_cur(current_app, item):
     current_app[7] = package_str(current_app[7], item[3])
     current_app[11] = package_str(current_app[11], item[6])
     current_app[12] = get_sum(current_app[12], item[7])
-    current_app[13] = package_str(current_app[13], item[7])
-    current_app[15] = get_sum(current_app[15], item[9])
-    current_app[16] = package_str(current_app[16], item[9])
+    current_app[13] = package_str(current_app[13], str(item[7]))
+    current_app[15] = get_sum(current_app[15], int(item[9]))
+    current_app[16] = package_str(current_app[16], str(item[9]))
     current_app[19] = package_str(current_app[19], item[11])
     current_app[20] = package_str(current_app[20], item[12])
     return
+
+
+def update_addi_items(current_app):
+    return [current_app[1], current_app[2], current_app[3], current_app[4],
+            current_app[5], current_app[6], current_app[7], current_app[8],
+            current_app[9], current_app[10], current_app[11], current_app[12],
+            current_app[13], current_app[14], current_app[15], current_app[16],
+            current_app[17], current_app[18], current_app[19], current_app[20],
+            current_app[21], current_app[0]]
 
 
 def samiliar(string1, string2):
@@ -155,7 +146,7 @@ def package_str(string1, string2):
     :param string2:
     :return: join two
     """
-    return string1 + "\n" + get_string_strip(string2)
+    return str(string1) + "\n" + get_string_strip(str(string2))
 
 
 def get_string_strip(string):

@@ -20,11 +20,18 @@ def basic_catchapps():
     """
     conn = pymysql.connect(host=DB_HOST, user=DB_USER, password=DB_PWD, db=DB_DB, charset=DB_CHARSET)
     cur = conn.cursor()
-    sql = "SELECT * FROM t_apps_basic ORDER BY a_pkgname"
+    sql = "SELECT * FROM t_apps_basic ORDER BY a_pkgname;"
+    sql_basic_united = "SELECT a_pkgname FROM t_apps_basic_united;"
+    logging.debug("Select from basic begin")
     cur.execute(sql)
-    conn.commit()
-
+    logging.debug("Select from basic end")
     list_apps = cur.fetchall()
+
+    logging.debug("Select from basic_united begin")
+    cur.execute(sql_basic_united)
+    logging.debug("Select from basic_united end")
+    pkg_bu_set = set(cur.fetchall())
+
     if not list_apps:
         logging.error("today has no data")
         return
@@ -46,15 +53,29 @@ def basic_catchapps():
             current_app = init_basic_cur(item)
 
     cur.execute("DELETE FROM t_apps_basic_united")
-
+    sql_insert = "INSERT INTO t_apps_basic_united (a_pkgname = %s, a_pkgname_list = %s, a_name = %s, " \
+                 "a_name_list = %s, a_url = %s, a_url_list = %s, a_picurl = %s, a_picurl_list = %s, " \
+                 "a_publisher = %s, a_publisher_list = %s, a_subtitle = %s, a_description = %s, " \
+                 "a_description_list = %s, a_classify = %s, a_defaulttags = %s, a_softgame = %s, " \
+                 "a_softgame_list = %s, a_source_list = %s, a_getdate = %s) " \
+                 "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    sql_update = "UPDATE t_apps_basic_united SET a_pkgname_list = %s, a_name = %s, a_name_list = %s, " \
+                 "a_url = %s, a_url_list = %s, a_picurl = %s, a_picurl_list = %s, a_publisher = %s, " \
+                 "a_publisher_list = %s, a_subtitle = %s, a_description = %s, a_description_list = %s, " \
+                 "a_classify = %s, a_defaulttags = %s, a_softgame = %s, a_softgame_list = %s, " \
+                 "a_source_list = %s, a_getdate = %s WHERE a_pkgname = %s"
     for info in list_resutl:
         assert info, "info is null"
         logging.debug("Insert is running: %s", info[0])
-        cur.execute("INSERT INTO t_apps_basic_united VALUES (%s, %s, %s, %s, %s, %s, %s, "
-                    "%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)", info)
+        if info[0] in pkg_bu_set:
+            logging.debug("Basic already exist : %s update", info[0])
+            update_item = update_basic_items(info)
+            cur.execute(sql_update, update_item)
+        else:
+            logging.debug("Basic not exist : %s insert", info[0])
+            current_app = init_basic_cur(info)
+            cur.execute(sql_insert, current_app)
+            pkg_bu_set.add(info[0])
         conn.commit()
         assert cur, "Cursor happened something"
     return
-
-
-
