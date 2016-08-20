@@ -61,14 +61,6 @@ def update_basic_cur(current_app, item):
     return
 
 
-def update_basic_items(current_app):
-    return [current_app[1], current_app[2], current_app[3], current_app[4],
-            current_app[5], current_app[6], current_app[7], current_app[8],
-            current_app[9], current_app[10], current_app[11], current_app[12],
-            current_app[13], current_app[14], current_app[15], current_app[16],
-            current_app[17], current_app[18], current_app[0]]
-
-
 """
     additional:
     0:a_pkgname   1:a_name          2:a_url        3:a_picurl
