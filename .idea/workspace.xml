@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb5cfe7-c1c3-4a8a-9b33-9e324eb60cdf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/united.iml" afterPath="$PROJECT_DIR$/.idea/united.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps_united/united_for_addi.py" afterPath="$PROJECT_DIR$/apps_united/united_for_addi.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps_united/united_for_basic.py" afterPath="$PROJECT_DIR$/apps_united/united_for_basic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps_united/united_utils.py" afterPath="$PROJECT_DIR$/apps_united/united_utils.py" />
     </list>
     <ignored path="united.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,13 +20,14 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/united$additional_united.coverage" NAME="additional_united Coverage Results" MODIFIED="1471671455904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/united$unitedforadd_v0_0.coverage" NAME="unitedforadd_v0.0 Coverage Results" MODIFIED="1470317088628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/united$united_main.coverage" NAME="basic_united Coverage Results" MODIFIED="1470047747817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataUnited$basic_united.coverage" NAME="basic_united Coverage Results" MODIFIED="1471793079025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/united$test.coverage" NAME="test Coverage Results" MODIFIED="1471332219763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/united$savepic.coverage" NAME="savepic Coverage Results" MODIFIED="1471260761711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/united$united.coverage" NAME="united Coverage Results" MODIFIED="1469758815154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/united$united_v0_1.coverage" NAME="united_v0.1 Coverage Results" MODIFIED="1469783830173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/united$basic_united.coverage" NAME="basic_united Coverage Results" MODIFIED="1471678569537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/united$test.coverage" NAME="test Coverage Results" MODIFIED="1471332219763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/united$united_main.coverage" NAME="basic_united Coverage Results" MODIFIED="1470047747817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/united$unitedforadd_v0_0.coverage" NAME="unitedforadd_v0.0 Coverage Results" MODIFIED="1470317088628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/united$savepic.coverage" NAME="savepic Coverage Results" MODIFIED="1471260761711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -40,52 +41,12 @@
       <file leaf-file-name="united_for_basic.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps_united/united_for_basic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="52" column="99" selection-start-line="52" selection-start-column="99" selection-end-line="52" selection-end-column="99" />
+            <state relative-caret-position="168">
+              <caret line="54" column="27" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="27" />
               <folding>
-                <element signature="e#79#93#0" expanded="true" />
-                <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-                <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-                <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-                <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="united_for_addi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps_united/united_for_addi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="28" />
-              <folding>
-                <element signature="e#25#39#0" expanded="true" />
-                <marker date="1471664631093" expanded="true" signature="246:322" ph="SELECT a_pkg... t_apps_basic_united" />
-                <marker date="1471664631093" expanded="true" signature="341:419" ph="SELECT * FRO... t_apps_additional" />
-                <marker date="1471664631093" expanded="true" signature="442:510" ph="SELECT a_pkg... t_apps_addi_united" />
-                <marker date="1471664631093" expanded="true" signature="1855:1921" ph="INSERT INTO t_apps_addi_united... " />
-                <marker date="1471664631093" expanded="true" signature="1855:2011" ph="INSERT INTO t_apps_addi_united... " />
-                <marker date="1471664631093" expanded="true" signature="2040:2609" ph="UPDATE t_app... " />
+                <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+                <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+                <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
               </folding>
             </state>
           </provider>
@@ -94,8 +55,8 @@
       <file leaf-file-name="united_utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps_united/united_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+            <state relative-caret-position="205">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -148,8 +109,66 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Django</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>HAML</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyInterpreterInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -176,32 +195,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="united" />
+              <option name="myItemId" value="DataUnited" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="united" />
+              <option name="myItemId" value="DataUnited" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="united" />
+              <option name="myItemId" value="DataUnited" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="united" />
+              <option name="myItemId" value="DataUnited" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="united" />
+              <option name="myItemId" value="DataUnited" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -211,14 +229,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSLint" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/QSpider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -544,18 +563,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15038168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15250379" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5400982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35188216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3509061" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36006546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -608,31 +627,9 @@
         <state relative-caret-position="1122">
           <caret line="70" column="102" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="102" />
           <folding>
-            <element signature="e#79#93#0" expanded="true" />
-            <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-            <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-            <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
+            <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+            <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+            <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
           </folding>
         </state>
       </provider>
@@ -642,9 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#25#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,31 +647,9 @@
         <state relative-caret-position="1122">
           <caret line="70" column="102" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="102" />
           <folding>
-            <element signature="e#79#93#0" expanded="true" />
-            <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-            <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-            <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
+            <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+            <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+            <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
           </folding>
         </state>
       </provider>
@@ -687,9 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,31 +667,9 @@
         <state relative-caret-position="238">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="e#79#93#0" expanded="true" />
-            <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-            <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-            <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
+            <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+            <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+            <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
           </folding>
         </state>
       </provider>
@@ -732,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,31 +687,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#79#93#0" expanded="true" />
-            <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-            <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-            <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
+            <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+            <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+            <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
           </folding>
         </state>
       </provider>
@@ -777,31 +699,9 @@
         <state relative-caret-position="238">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="e#79#93#0" expanded="true" />
-            <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-            <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-            <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
+            <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+            <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+            <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
           </folding>
         </state>
       </provider>
@@ -811,9 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,31 +719,9 @@
         <state relative-caret-position="238">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="e#79#93#0" expanded="true" />
-            <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-            <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-            <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
+            <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+            <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+            <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
           </folding>
         </state>
       </provider>
@@ -856,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,31 +739,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#79#93#0" expanded="true" />
-            <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-            <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-            <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
+            <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+            <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+            <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
           </folding>
         </state>
       </provider>
@@ -901,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -912,31 +759,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#79#93#0" expanded="true" />
-            <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-            <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-            <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
+            <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+            <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+            <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
           </folding>
         </state>
       </provider>
@@ -946,9 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,31 +779,9 @@
         <state relative-caret-position="1088">
           <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
           <folding>
-            <element signature="e#79#93#0" expanded="true" />
-            <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-            <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-            <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
+            <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+            <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+            <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
           </folding>
         </state>
       </provider>
@@ -991,9 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,51 +799,17 @@
         <state relative-caret-position="204">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
-            <element signature="e#79#93#0" expanded="true" />
-            <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-            <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-            <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
+            <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+            <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+            <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps_united/unitedforadd_v00.py" />
     <entry file="file://$PROJECT_DIR$/apps_united/united_v0.0.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/-1249248731/_collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="194" column="8" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/-1249248731/_collections.py" />
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/pymysql/__init__.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/io.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
@@ -1061,13 +824,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2734">
-          <caret line="809" column="8" selection-start-line="809" selection-start-column="8" selection-end-line="809" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/pymysql/connections.py" />
     <entry file="file://$PROJECT_DIR$/apps_united/united_v0.0.py" />
     <entry file="file://$PROJECT_DIR$/pylint.conf">
       <provider selected="true" editor-type-id="text-editor">
@@ -1091,43 +848,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/site-packages/pymysql/err.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TagsMaker/db_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/pymysql/err.py" />
+    <entry file="file://$PROJECT_DIR$/../TagsMaker/db_config.py" />
+    <entry file="file://C:/Program Files/Python35/Lib/re.py" />
     <entry file="file://$PROJECT_DIR$/apps_united/unitedforadd_v00.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/-1249248731/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="4340" column="16" selection-start-line="4340" selection-start-column="16" selection-end-line="4340" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/-1249248731/builtins.py" />
     <entry file="file://$PROJECT_DIR$/united_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1135,82 +864,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4845">
-          <caret line="292" column="21" selection-start-line="292" selection-start-column="21" selection-end-line="292" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/site-packages/pymysql/cursors.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25415">
           <caret line="1530" column="0" selection-start-line="1530" selection-start-column="0" selection-end-line="1530" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps_united/united_for_addi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#25#39#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps_united/united_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+        <state relative-caret-position="205">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps_united/united_for_addi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <marker date="1471664631093" expanded="true" signature="246:322" ph="SELECT a_pkg... t_apps_basic_united" />
-            <marker date="1471664631093" expanded="true" signature="341:419" ph="SELECT * FRO... t_apps_additional" />
-            <marker date="1471664631093" expanded="true" signature="442:510" ph="SELECT a_pkg... t_apps_addi_united" />
-            <marker date="1471664631093" expanded="true" signature="1855:1921" ph="INSERT INTO t_apps_addi_united... " />
-            <marker date="1471664631093" expanded="true" signature="1855:2011" ph="INSERT INTO t_apps_addi_united... " />
-            <marker date="1471664631093" expanded="true" signature="2040:2609" ph="UPDATE t_app... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps_united/united_for_basic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="52" column="99" selection-start-line="52" selection-start-column="99" selection-end-line="52" selection-end-column="99" />
+        <state relative-caret-position="168">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="27" />
           <folding>
-            <element signature="e#79#93#0" expanded="true" />
-            <marker date="1471678569490" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
-            <marker date="1471678569490" expanded="true" signature="1482:1513" ph="DELETE FROM " />
-            <marker date="1471678569490" expanded="true" signature="1534:1567" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1576" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1592" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1600" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1613" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1642" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1654" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1664" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1679" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1692" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1710" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1744" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1759" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1779" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1791" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1806" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1818" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1857" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1872" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1942" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1989" ph="INSERT INTO t_apps_basic_united... " />
-            <marker date="1471678569490" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
+            <marker date="1471792641870" expanded="true" signature="417:462" ph="SELECT * FRO... t_apps_basic" />
+            <marker date="1471792641870" expanded="true" signature="1482:1513" ph="DELETE FROM " />
+            <marker date="1471792641870" expanded="true" signature="1534:1990" ph="INSERT INTO t_apps_basic_united... " />
           </folding>
         </state>
       </provider>
