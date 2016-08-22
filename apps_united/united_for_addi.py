@@ -9,7 +9,7 @@ def addi_catchapps(date):
     conn = pymysql.connect(host=DB_HOST, db=DB_DB, user=DB_USER, passwd=DB_PWD, charset=DB_CHARSET)
     cur = conn.cursor()
     sql = "SELECT a_pkgname, a_pkgname_list FROM t_apps_basic_united ORDER BY a_pkgname;"
-    sql_addi = "SELECT * FROM t_apps_additional WHERE DATE(a_getdate) = %s AND a_pkgname IN %s;"
+    sql_addi = "SELECT * FROM t_apps_additional WHERE DATE(a_getdate) = %s AND a_pkgname IN %s ORDER BY a_pkgname;"
     sql_addi_pkg = "SELECT a_pkgname FROM t_apps_addi_united WHERE DATE (a_getdate) = %s;"
     logging.debug("BASIC: start to select from basic_united")
     cur.execute(sql)
@@ -20,12 +20,12 @@ def addi_catchapps(date):
     logging.debug("ADDI-UNITED: select from addi_united is over, start to add to addi_pkg_set")
     addi_pkg_set = set(item[0] for item in cur.fetchall())
     logging.debug("Addi already has : %s", addi_pkg_set)
-    cur.execute(sql)
     logging.debug("BASIC: basic_pkg_list has all data")
     for pkg_list in basic_pkg_list:
         logging.debug("ADDI: start to modify pkgname_list")
         pkg_name = get_string_split(pkg_list[1], (" ", "\n"), is_remove_empty=True)
         logging.debug("ADDI: in_pkg get all, start to insert select from additional")
+        logging.debug("PKGNAME is got: %s", pkg_name)
         cur.execute(sql_addi, (date, pkg_name))
         apps = cur.fetchall()
         if len(apps) == 0:
