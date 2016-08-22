@@ -56,8 +56,8 @@ def basic_catchapps():
         assert info, "info is null"
         logging.debug("Insert is running: %s", info[0])
         logging.debug("Basic not exist : %s insert", info[0])
-        current_app = init_basic_cur(info)
-        cur.execute(sql_insert, current_app)
+        # current_app = init_basic_cur(info)
+        cur.execute(sql_insert, info)
         conn.commit()
         assert cur, "Cursor happened something"
     return
