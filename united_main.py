@@ -12,7 +12,7 @@ if sys.argv[1] == "basic":
     basic_catchapps()
 elif sys.argv[1] == "additional":
     today = time.strftime('%Y-%m-%d', time.localtime(time.time()))
-    addi_catchapps("2016-08-22")
+    addi_catchapps(today)
 else:
     logging.error("united error: parameters error")
     pass
