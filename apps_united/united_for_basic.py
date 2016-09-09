@@ -29,7 +29,7 @@ def basic_catchapps():
         logging.error("today has no data")
         return
 
-    list_resutl = []
+    list_result = []
     current_app = init_basic_cur(list_apps[0])
 
     for item in list_apps[1:]:
@@ -42,7 +42,7 @@ def basic_catchapps():
             update_basic_cur(current_app, item)
         else:
             logging.debug("Pkgname compare: %s and %s is very different", item[1], current_app[0])
-            list_resutl.append(current_app)
+            list_result.append(current_app)
             current_app = init_basic_cur(item)
 
     cur.execute("DELETE FROM t_apps_basic_united")
@@ -52,7 +52,7 @@ def basic_catchapps():
                  "a_softgame_list, a_source_list, a_getdate) " \
                  "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
 
-    for info in list_resutl:
+    for info in list_result:
         assert info, "info is null"
         logging.debug("Insert is running: %s", info[0])
         logging.debug("Basic not exist : %s insert", info[0])
