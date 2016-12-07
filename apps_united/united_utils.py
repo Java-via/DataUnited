@@ -6,7 +6,7 @@ import functools
 import operator
 
 # ----server----
-DB_HOST = "101.200.174.172"
+DB_HOST = "localhost"
 DB_DB = "data_apps"
 DB_USER = "dba_apps"
 DB_PWD = "mimadba_apps"
